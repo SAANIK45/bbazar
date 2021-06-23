@@ -335,6 +335,7 @@ label {
 }
 
 /* top-nav */
+
 .top-nav {
 	background: #292929;
 	color: #efefef;
@@ -361,6 +362,17 @@ label {
 /* top-nav */
 
 /* header */
+.header-area.header-sticky.sticky {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 2222;
+	background: #d3995f;
+	color: #d3d3d3;
+	padding: 15px 0px;
+}
+
 .left-menu ul li {
 	display: inline-block;
 	margin-left: 20px;
@@ -378,12 +390,8 @@ label {
 	font-size: 15px;
 	font-weight: 600;
 	text-transform: capitalize;
-	transition: .3s;
 }
 
-.left-menu ul li a:hover {
-	color: #d3995f;
-}
 
 /* header */
 
@@ -788,3 +796,6 @@ label {
 .link-main ul li a:hover {
 	color: #d3995f;
 }
+
+
+/* footer */

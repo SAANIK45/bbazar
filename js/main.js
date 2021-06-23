@@ -14,10 +14,10 @@
 		scrollOffset: top_offset,
 	});
 
-
+	//sticky-menu
 	$(window).on('scroll', function () {
 		var scroll = $(window).scrollTop();
-		if (scroll < 245) {
+		if (scroll < 1) {
 			$(".header-sticky").removeClass("sticky");
 		} else {
 			$(".header-sticky").addClass("sticky");
