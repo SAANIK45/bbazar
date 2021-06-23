@@ -159,3 +159,9 @@
 	});
 
 })(jQuery);
+
+
+// Theme Name: Name - BBazar An Awesome E-commerce HTML Template
+// Author: Md.Samiul Ahmed
+// Support: samiulahmedanik@gmail.com
+// Description: bbazar - An awesone ecommerce templete
