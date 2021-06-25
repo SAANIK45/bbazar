@@ -141,6 +141,92 @@
     .main-menu {
         background: #d3995f;
     }
+
+    .mob-img {
+        display: block;
+    }
+
+    .slider-item h1 {
+        font-size: 35px;
+        margin-top: 20px;
+    }
+
+    .slider-item a button {
+        margin-bottom: 50px;
+    }
+
+    .add-to-cart {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .search input {
+        width: 100%;
+    }
+
+    .search {
+        margin: 0;
+        width: 100%;
+    }
+
+    .section-title p {
+        width: 100%;
+    }
+
+    .subs-title h3 {
+        text-align: center;
+    }
+
+    .subs-title {
+        margin-top: 10px;
+        float: none;
+    }
+
+    .subs-item input {
+        width: 100%;
+        margin: 15px 0px;
+    }
+
+    .subs-btn {
+
+        margin: 0;
+        width: 100%;
+    }
+
+    .story-area {
+        margin-top: 20px;
+    }
+
+    .story-area a button {
+        margin-bottom: 35px;
+    }
+
+    .story-area {
+        padding: 0px 25px;
+    }
+
+    .main-menu {
+        padding: 10px;
+    }
+
+    .mob-img {
+        margin-top: 5px;
+        cursor: pointer;
+    }
+
+    .right-footer-item h5 {
+        font-size: 16px;
+
+    }
+
+    .social-icon ul li {
+        margin-left: 20px;
+    }
+
+    .pop-btn {
+        padding: 5px 3px;
+
+    }
 }
 
 /* Large Mobile :480px. */
@@ -165,6 +251,88 @@
         display: none;
     }
 
+    .main-menu {
+        padding: 10px 0px;
+    }
 
+    .mob-img {
+        display: block;
+    }
+
+    .mob-img img {
+        margin-right: 10px;
+    }
+
+    .slider-item h1 {
+        font-size: 35px;
+        margin-top: 20px;
+    }
+
+    .slider-item a button {
+        margin-bottom: 50px;
+    }
+
+    .add-to-cart {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .search input {
+        width: 100%;
+    }
+
+    .search {
+        margin: 0;
+        width: 100%;
+    }
+
+    .section-title p {
+        width: 100%;
+    }
+
+    .subs-title h3 {
+        text-align: center;
+    }
+
+    .subs-title {
+        margin-top: 10px;
+        float: none;
+    }
+
+    .subs-item input {
+        width: 100%;
+        margin: 15px 0px;
+    }
+
+    .subs-btn {
+        margin: 0;
+        width: 100%;
+    }
+
+    .story-area {
+        margin-top: 20px;
+    }
+
+    .story-area a button {
+        margin-bottom: 35px;
+    }
+
+    .story-area {
+        padding: 0px 25px;
+    }
+
+    .right-footer-item h5 {
+        font-size: 18px;
+
+    }
+
+    .social-icon ul li {
+        margin-left: 20px;
+    }
+
+    .pop-btn {
+        padding: 5px 3px;
+
+    }
 
 }

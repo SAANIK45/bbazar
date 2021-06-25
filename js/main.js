@@ -17,7 +17,7 @@
 	//sticky-menu
 	$(window).on('scroll', function () {
 		var scroll = $(window).scrollTop();
-		if (scroll < 100) {
+		if (scroll < 50) {
 			$(".header-sticky").removeClass("sticky");
 		} else {
 			$(".header-sticky").addClass("sticky");
@@ -135,9 +135,6 @@
 		event.preventDefault();
 	});
 
-
-
-
 	// scrollToTop
 	$.scrollUp({
 		scrollName: 'scrollUp', // Element ID
@@ -159,8 +156,6 @@
 	});
 
 })(jQuery);
-
-
 
 //Humburger Menu 
 
