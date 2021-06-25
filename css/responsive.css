@@ -1,32 +1,170 @@
 /* Normal desktop :1200px. */
-@media (min-width: 1200px) and (max-width: 1500px) {
-
-
-}
+@media (min-width: 1200px) and (max-width: 1500px) {}
 
 
 /* Normal desktop :992px. */
 @media (min-width: 992px) and (max-width: 1200px) {
+    .left-menu ul li {
+        margin-left: 15px;
+        margin-right: 13px;
 
+    }
 
+    .left-menu {
+        float: left;
+    }
+
+    .user-menu {
+        display: inline-block;
+        float: left;
+        margin: 0;
+        margin-top: 10px;
+    }
+
+    .user-menu ul li a {
+        padding-left: 4px;
+        padding-right: 4px;
+
+    }
+
+    .popular-item h4 {
+        font-size: 14px;
+        padding: 8px 0px;
+    }
+
+    .popular-item span {
+        font-size: 14px;
+        padding: 8px 0px;
+
+    }
+
+    .story-area a button {
+        padding: 10px 10px;
+    }
+
+    .story-area img {
+        margin-bottom: 10px;
+    }
+
+    .story-area p {
+        margin-bottom: 15px;
+    }
 }
 
- 
+
 /* Tablet desktop :768px. */
 @media (min-width: 768px) and (max-width: 991px) {
+    .left-menu ul li a {
+        font-size: 14px;
+        padding-left: 4px;
+    }
 
+    .left-menu ul li {
+        margin-left: 2px;
+        margin-right: 2px;
+    }
+
+    .right-menu {
+        float: left;
+    }
+
+    .btn {
+        padding: 10px 20px;
+    }
+
+    .social-link ul li {
+        margin-top: 5px;
+        margin-left: 5px;
+        margin-right: 10px;
+    }
+
+    .subs-title h3 {
+        font-size: 16px;
+    }
+
+    .popular-item h4 {
+        font-size: 12px;
+    }
+
+    .popular-item span {
+        font-size: 12px;
+    }
+
+    .story-img img {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        padding: 20px;
+    }
+
+    .story-area img {
+        margin-bottom: 10px;
+    }
+
+    .story-area {
+        padding: 10px 0px;
+    }
+
+    .right-footer-item h5 {
+        font-size: 12px;
+    }
+
+    .social-icon ul li {
+        margin-left: 10px;
+    }
 
 }
 
- 
+
 /* small mobile :320px. */
 @media (max-width: 767px) {
+    .mobile-menu {
+        display: block;
+    }
 
- 
+    .header-area.header-sticky {
+        display: none;
+    }
+
+    .top-nav-left {
+        display: none;
+    }
+
+    .social-link {
+        float: left;
+    }
+
+    .btn {
+        padding: 15px 10px;
+    }
+
+    .main-menu {
+        background: #d3995f;
+    }
 }
- 
+
 /* Large Mobile :480px. */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-.container {width:450px}
- 
+    .container {
+        width: 450px
+    }
+
+    .top-nav-left {
+        display: none;
+    }
+
+    .social-link {
+        float: left;
+    }
+
+    .mobile-menu {
+        display: block;
+    }
+
+    .header-area.header-sticky {
+        display: none;
+    }
+
+
+
 }

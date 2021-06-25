@@ -3,8 +3,8 @@
 
 	// meanmenu
 	$('#mobile-menu').meanmenu({
-		meanMenuContainer: '.mobile-menu',
-		meanScreenWidth: "992"
+		meanMenuContainer: '.phone-menu',
+		meanScreenWidth: "1200"
 	});
 
 	// One Page Nav
@@ -17,7 +17,7 @@
 	//sticky-menu
 	$(window).on('scroll', function () {
 		var scroll = $(window).scrollTop();
-		if (scroll < 1) {
+		if (scroll < 100) {
 			$(".header-sticky").removeClass("sticky");
 		} else {
 			$(".header-sticky").addClass("sticky");
@@ -161,7 +161,13 @@
 })(jQuery);
 
 
-// Theme Name: Name - BBazar An Awesome E-commerce HTML Template
-// Author: Md.Samiul Ahmed
-// Support: samiulahmedanik@gmail.com
-// Description: bbazar - An awesone ecommerce templete
+
+//Humburger Menu 
+
+function openNav() {
+    document.getElementById("myNav").style.width = "100%";
+}
+
+function closeNav() {
+    document.getElementById("myNav").style.width = "0%";
+}
