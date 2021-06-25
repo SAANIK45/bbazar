@@ -73,7 +73,7 @@
     <!-- top-nav -->
 
     <!-- Header -->
-    <section class="main-menu">
+    <section id="home" class="main-menu">
         <header>
             <nav>
                 <div class="header-area header-sticky sticky">
@@ -82,25 +82,25 @@
                             <div class="col-xl-5 col-md-5 ">
                                 <div class="left-menu f-left">
                                     <ul>
-                                        <li><a href="#">woman</a></li>
-                                        <li><a href="#">men</a></li>
-                                        <li><a href="#">children</a></li>
-                                        <li><a href="#">collection</a></li>
+                                        <li><a href="#popular">woman</a></li>
+                                        <li><a href="#popular">men</a></li>
+                                        <li><a href="#story">story</a></li>
+                                        <li><a href="#collection">collection</a></li>
                                     </ul>
                                 </div>
                             </div>
                             <div class="col-xl-2 col-md-2">
                                 <div class="logo text-center">
-                                    <a href="#"><img src="./img/logo.png" alt="logo"></a>
+                                    <a href="#home"><img src="./img/logo.png" alt="logo"></a>
                                 </div>
                             </div>
                             <div class="col-xl-5 col-md-5">
                                 <div class="left-menu right-menu f-right">
                                     <ul>
-                                        <li><a href="#">Spring</a></li>
-                                        <li><a href="#">summer</a></li>
-                                        <li><a href="#">fall</a></li>
-                                        <li><a href="#">winter</a></li>
+                                        <li><a href="#collection">Spring</a></li>
+                                        <li><a href="#collection">summer</a></li>
+                                        <li><a href="#collection">fall</a></li>
+                                        <li><a href="#winter">winter</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -117,13 +117,13 @@
                         <div id="myNav" class="overlay ">
                             <a href="javascript:void()" onclick="closeNav()" class="close-btn">&times;</a>
                             <div class="overlay-content">
-                                <a onclick="closeNav()" href="#women">women</a>
-                                <a onclick="closeNav()" href="#men">men</a>
-                                <a onclick="closeNav()" href="#children">children</a>
+                                <a onclick="closeNav()" href="#popular">women</a>
+                                <a onclick="closeNav()" href="#popular">men</a>
+                                <a onclick="closeNav()" href="#story">story</a>
                                 <a onclick="closeNav()" href="#collection">collection</a>
-                                <a onclick="closeNav()" href="#spring">spring</a>
-                                <a onclick="closeNav()" href="#summer">Summer</a>
-                                <a onclick="closeNav()" href="#fall">fall</a>
+                                <a onclick="closeNav()" href="#collection">spring</a>
+                                <a onclick="closeNav()" href="#collection">Summer</a>
+                                <a onclick="closeNav()" href="#collection">fall</a>
                                 <a onclick="closeNav()" href="#winter">winter</a>
                             </div>
                         </div>
@@ -226,7 +226,7 @@
     <!-- searchbar -->
 
     <!-- popular -->
-    <section class="popular-now">
+    <section class="popular-now" id="popular">
         <div class="container">
             <div class="section-title text-center">
                 <h2>popular now</h2>
@@ -372,7 +372,7 @@
         </div>
     </section>
     <!-- popular -->
-    <section class="winter">
+    <section class="winter" id="winter">
         <div class="container">
             <div class="section-title text-center">
                 <h2>new winter collection</h2>
@@ -448,7 +448,7 @@
         </div>
     </section>
 
-    <section class="our-collection">
+    <section class="our-collection" id="collection">
         <div class="container">
             <div class="section-title text-center">
                 <h2>our collection</h2>
@@ -690,7 +690,7 @@
         </div>
     </section>
 
-    <section class="story">
+    <section class="story" id="story">
         <div class="story-main">
             <div class="row">
                 <div class="col-xl-6 col-md-6">
