@@ -650,6 +650,11 @@ label {
 	padding-left: 10px;
 	padding-right: 20px;
 	text-transform: capitalize;
+	transition: .3s;
+}
+
+.user-menu ul li a:hover {
+	color: #d3995f;
 }
 
 .search {

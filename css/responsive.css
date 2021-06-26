@@ -144,6 +144,7 @@
 
     .mob-img {
         display: block;
+        margin-top: 5px;
     }
 
     .slider-item h1 {

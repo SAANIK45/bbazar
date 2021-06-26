@@ -25,7 +25,6 @@
 	});
 
 
-
 	// mainSlider
 	function mainSlider() {
 		var BasicSlider = $('.slider-active');
@@ -171,3 +170,4 @@ function closeNav() {
 setTimeout(function(){
 	$('.loader-bg').fadeToggle();
 },2500);
+
