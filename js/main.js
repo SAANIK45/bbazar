@@ -167,5 +167,7 @@ function closeNav() {
     document.getElementById("myNav").style.width = "0%";
 }
 
-
-
+// preloader
+setTimeout(function(){
+	$('.loader-bg').fadeToggle();
+},2500);
